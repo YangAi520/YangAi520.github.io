@@ -5,358 +5,1497 @@
     <title>Sound demos for "A Neural Vocoder with Hierarchical Generation of Amplitude and Phase Spectra for Statistical Parametric Speech Synthesis"</title>
 </head>
     <body>
-    <h2>Sound demos for "APCodec: A Neural Hybrid Speech Codec with Parallel Encoding and Decoding for Amplitude and Phase Spectra"</h2>
- <h2>Authors: Yang Ai, Zheng-Yan Sheng, Rui-Chen Zheng, Ye-Xin Lu, Zhen-Hua Ling</h2>
+    <h2>Sound demos for "APCodec: A Neural  Audio Codec with Parallel Encoding and Decoding for Amplitude and Phase Spectra"</h2>
+    <h2>Authors: Yang Ai, Xiao-Hang Jiang, Ye-Xin Lu, Hui-Peng Du, Zhen-Hua Ling</h2>
   
 
     <p>&nbsp;</p>
+    <h2>Primary Experimental Results</h2>
+    <p><em><strong>Sampling rate = 48 kHz, Bitrate = 6 kbps </strong></em></p>
+    <a></a>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="6"><div align="left">Example 1 (p360, male speaker) </div></th>
+          </tr>
+          <tr>
+            <th width="192">Raw Audio </th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/1.wav" type="audio/wav">
+            </audio></td>
+            <td></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <th>SoundStream </th>
+            <th>Encodec </th>
+            <th>HiFi-Codec</th>
+            <th>AudioDec</th>
+            <th>APCodec</th>
+            <th>APCodec-S</th>
+          </tr>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_6/1.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_6/1.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_6/1.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_6/1.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/1.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/1.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="6"><div align="left">Example 2 (p361, female speaker) </div></th>
+          </tr>
+          <tr>
+            <th width="192">Raw Audio </th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/2.wav" type="audio/wav">
+            </audio></td>
+            <td></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <th>SoundStream </th>
+            <th>Encodec </th>
+            <th>HiFi-Codec</th>
+            <th>AudioDec</th>
+            <th>APCodec</th>
+            <th>APCodec-S</th>
+          </tr>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_6/2.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_6/2.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_6/2.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_6/2.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/2.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/2.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="6"><div align="left">Example 3 (p362, female speaker) </div></th>
+          </tr>
+          <tr>
+            <th width="192">Raw Audio </th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/3.wav" type="audio/wav">
+            </audio></td>
+            <td></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <th>SoundStream </th>
+            <th>Encodec </th>
+            <th>HiFi-Codec</th>
+            <th>AudioDec</th>
+            <th>APCodec</th>
+            <th>APCodec-S</th>
+          </tr>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_6/3.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_6/3.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_6/3.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_6/3.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/3.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/3.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="6"><div align="left">Example 4 (p363, male speaker) </div></th>
+          </tr>
+          <tr>
+            <th width="192">Raw Audio </th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/4.wav" type="audio/wav">
+            </audio></td>
+            <td></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <th>SoundStream </th>
+            <th>Encodec </th>
+            <th>HiFi-Codec</th>
+            <th>AudioDec</th>
+            <th>APCodec</th>
+            <th>APCodec-S</th>
+          </tr>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_6/4.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_6/4.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_6/4.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_6/4.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/4.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/4.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="6"><div align="left">Example 5 (p364, male speaker) </div></th>
+          </tr>
+          <tr>
+            <th width="192">Raw Audio </th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/5.wav" type="audio/wav">
+            </audio></td>
+            <td></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <th>SoundStream </th>
+            <th>Encodec </th>
+            <th>HiFi-Codec</th>
+            <th>AudioDec</th>
+            <th>APCodec</th>
+            <th>APCodec-S</th>
+          </tr>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_6/5.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_6/5.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_6/5.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_6/5.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/5.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/5.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="6"><div align="left">Example 6 (p374, male speaker) </div></th>
+          </tr>
+          <tr>
+            <th width="192">Raw Audio </th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/6.wav" type="audio/wav">
+            </audio></td>
+            <td></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <th>SoundStream </th>
+            <th>Encodec </th>
+            <th>HiFi-Codec</th>
+            <th>AudioDec</th>
+            <th>APCodec</th>
+            <th>APCodec-S</th>
+          </tr>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_6/6.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_6/6.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_6/6.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_6/6.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/6.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/6.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="6"><div align="left">Example 7 (p376, male speaker) </div></th>
+          </tr>
+          <tr>
+            <th width="192">Raw Audio </th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/7.wav" type="audio/wav">
+            </audio></td>
+            <td></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <th>SoundStream </th>
+            <th>Encodec </th>
+            <th>HiFi-Codec</th>
+            <th>AudioDec</th>
+            <th>APCodec</th>
+            <th>APCodec-S</th>
+          </tr>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_6/7.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_6/7.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_6/7.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_6/7.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/7.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/7.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="6"><div align="left">Example 8 (s5, female speaker) </div></th>
+          </tr>
+          <tr>
+            <th width="192">Raw Audio </th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+            <th width="192">&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/8.wav" type="audio/wav">
+            </audio></td>
+            <td></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <th>SoundStream </th>
+            <th>Encodec </th>
+            <th>HiFi-Codec</th>
+            <th>AudioDec</th>
+            <th>APCodec</th>
+            <th>APCodec-S</th>
+          </tr>
+          <tr>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_6/8.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_6/8.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_6/8.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_6/8.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/8.wav" type="audio/wav">
+            </audio></td>
+            <td><audio controls="">
+                <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_6/8.wav" type="audio/wav">
+            </audio></td>
+          </tr>
+        </tbody>
+      </table>
+      
+        <p><em><strong>Sampling rate = 48 kHz, Bitrate = 12 kbps </strong></em></p>
+        <a></a>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="6"><div align="left">Example 1 (p360, male speaker) </div></th>
+              </tr>
+              <tr>
+                <th width="192">Raw Audio </th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/1.wav" type="audio/wav">
+                </audio></td>
+                <td></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th>SoundStream </th>
+                <th>Encodec </th>
+                <th>HiFi-Codec</th>
+                <th>AudioDec</th>
+                <th>APCodec</th>
+                <th>APCodec-S</th>
+              </tr>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_12/1.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_12/1.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_12/1.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_12/1.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/1.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/1.wav" type="audio/wav">
+                </audio></td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="6"><div align="left">Example 2 (p361, female speaker) </div></th>
+              </tr>
+              <tr>
+                <th width="192">Raw Audio </th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/2.wav" type="audio/wav">
+                </audio></td>
+                <td></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th>SoundStream </th>
+                <th>Encodec </th>
+                <th>HiFi-Codec</th>
+                <th>AudioDec</th>
+                <th>APCodec</th>
+                <th>APCodec-S</th>
+              </tr>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_12/2.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_12/2.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_12/2.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_12/2.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/2.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/2.wav" type="audio/wav">
+                </audio></td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="6"><div align="left">Example 3 (p362, female speaker) </div></th>
+              </tr>
+              <tr>
+                <th width="192">Raw Audio </th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/3.wav" type="audio/wav">
+                </audio></td>
+                <td></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th>SoundStream </th>
+                <th>Encodec </th>
+                <th>HiFi-Codec</th>
+                <th>AudioDec</th>
+                <th>APCodec</th>
+                <th>APCodec-S</th>
+              </tr>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_12/3.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_12/3.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_12/3.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_12/3.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/3.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/3.wav" type="audio/wav">
+                </audio></td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="6"><div align="left">Example 4 (p363, male speaker) </div></th>
+              </tr>
+              <tr>
+                <th width="192">Raw Audio </th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/4.wav" type="audio/wav">
+                </audio></td>
+                <td></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th>SoundStream </th>
+                <th>Encodec </th>
+                <th>HiFi-Codec</th>
+                <th>AudioDec</th>
+                <th>APCodec</th>
+                <th>APCodec-S</th>
+              </tr>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_12/4.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_12/4.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_12/4.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_12/4.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/4.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/4.wav" type="audio/wav">
+                </audio></td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="6"><div align="left">Example 5 (p364, male speaker) </div></th>
+              </tr>
+              <tr>
+                <th width="192">Raw Audio </th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/5.wav" type="audio/wav">
+                </audio></td>
+                <td></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th>SoundStream </th>
+                <th>Encodec </th>
+                <th>HiFi-Codec</th>
+                <th>AudioDec</th>
+                <th>APCodec</th>
+                <th>APCodec-S</th>
+              </tr>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_12/5.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_12/5.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_12/5.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_12/5.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/5.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/5.wav" type="audio/wav">
+                </audio></td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="6"><div align="left">Example 6 (p374, male speaker) </div></th>
+              </tr>
+              <tr>
+                <th width="192">Raw Audio </th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/6.wav" type="audio/wav">
+                </audio></td>
+                <td></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th>SoundStream </th>
+                <th>Encodec </th>
+                <th>HiFi-Codec</th>
+                <th>AudioDec</th>
+                <th>APCodec</th>
+                <th>APCodec-S</th>
+              </tr>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_12/6.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_12/6.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_12/6.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_12/6.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/6.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/6.wav" type="audio/wav">
+                </audio></td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="6"><div align="left">Example 7 (p376, male speaker) </div></th>
+              </tr>
+              <tr>
+                <th width="192">Raw Audio </th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/7.wav" type="audio/wav">
+                </audio></td>
+                <td></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th>SoundStream </th>
+                <th>Encodec </th>
+                <th>HiFi-Codec</th>
+                <th>AudioDec</th>
+                <th>APCodec</th>
+                <th>APCodec-S</th>
+              </tr>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_12/7.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_12/7.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_12/7.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_12/7.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/7.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/7.wav" type="audio/wav">
+                </audio></td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="6"><div align="left">Example 8 (s5, female speaker) </div></th>
+              </tr>
+              <tr>
+                <th width="192">Raw Audio </th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+                <th width="192">&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_48/8.wav" type="audio/wav">
+                </audio></td>
+                <td></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th>SoundStream </th>
+                <th>Encodec </th>
+                <th>HiFi-Codec</th>
+                <th>AudioDec</th>
+                <th>APCodec</th>
+                <th>APCodec-S</th>
+              </tr>
+              <tr>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_48_12/8.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_48_12/8.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_48_12/8.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AD_48_12/8.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/8.wav" type="audio/wav">
+                </audio></td>
+                <td><audio controls="">
+                    <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_48_12/8.wav" type="audio/wav">
+                </audio></td>
+              </tr>
+            </tbody>
+          </table>
+            <p><em><strong>Sampling rate = 24 kHz, Bitrate = 3 kbps </strong></em></p>
+            <a></a>
+      <table>
+                <thead>
+                  <tr>
+                    <th colspan="4"><div align="left">Example 1 (p376, male speaker) </div></th>
+                  </tr>
+                  <tr>
+                    <th width="192">Raw Audio </th>
+                    <th width="192">&nbsp;</th>
+                    <th width="192">&nbsp;</th>
+                    <th width="192">&nbsp;</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><audio controls="">
+                        <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_24/1.wav" type="audio/wav">
+                    </audio></td>
+                    <td></td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <th>SoundStream </th>
+                    <th>Encodec </th>
+                    <th>HiFi-Codec</th>
+                    <th>APCodec</th>
+                  </tr>
+                  <tr>
+                    <td><audio controls="">
+                        <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_24_3/1.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
+                        <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_24_3/1.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
+                        <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_24_3/1.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
+                        <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_24_3/1.wav" type="audio/wav">
+                    </audio></td>
+                  </tr>
+                </tbody>
+    </table>
+              <table>
+                <thead>
+                  <tr>
+                    <th colspan="4"><div align="left">Example 2 (p362, female speaker) </div></th>
+                  </tr>
+                  <tr>
+                    <th width="192">Raw Audio </th>
+                    <th width="192">&nbsp;</th>
+                    <th width="192">&nbsp;</th>
+                    <th width="192">&nbsp;</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><audio controls="">
+                        <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_24/2.wav" type="audio/wav">
+                    </audio></td>
+                    <td></td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <th>SoundStream </th>
+                    <th>Encodec </th>
+                    <th>HiFi-Codec</th>
+                    <th>APCodec</th>
+                  </tr>
+                  <tr>
+                    <td><audio controls="">
+                        <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_24_3/2.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
+                        <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_24_3/2.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
+                        <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_24_3/2.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
+                        <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_24_3/2.wav" type="audio/wav">
+                    </audio></td>
+                  </tr>
+                </tbody>
+              </table>
+            <p><em><strong>Sampling rate = 24 kHz, Bitrate = 6 kbps </strong></em></p>
+
+      
+
+            <a></a>
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="4"><div align="left">Example 1 (p376, male speaker) </div></th>
+                </tr>
+                <tr>
+                  <th width="192">Raw Audio </th>
+                  <th width="192">&nbsp;</th>
+                  <th width="192">&nbsp;</th>
+                  <th width="192">&nbsp;</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><audio controls="">
+                      <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_24/1.wav" type="audio/wav">
+                  </audio></td>
+                  <td></td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <th>SoundStream </th>
+                  <th>Encodec </th>
+                  <th>HiFi-Codec</th>
+                  <th>APCodec</th>
+                </tr>
+                <tr>
+                  <td><audio controls="">
+                      <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_24_6/1.wav" type="audio/wav">
+                  </audio></td>
+                  <td><audio controls="">
+                      <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_24_6/1.wav" type="audio/wav">
+                  </audio></td>
+                  <td><audio controls="">
+                      <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_24_6/1.wav" type="audio/wav">
+                  </audio></td>
+                  <td><audio controls="">
+                      <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_24_6/1.wav" type="audio/wav">
+                  </audio></td>
+                </tr>
+              </tbody>
+            </table>
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="4"><div align="left">Example 2 (p362, female speaker) </div></th>
+                </tr>
+                <tr>
+                  <th width="192">Raw Audio </th>
+                  <th width="192">&nbsp;</th>
+                  <th width="192">&nbsp;</th>
+                  <th width="192">&nbsp;</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><audio controls="">
+                      <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_24/2.wav" type="audio/wav">
+                  </audio></td>
+                  <td></td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <th>SoundStream </th>
+                  <th>Encodec </th>
+                  <th>HiFi-Codec</th>
+                  <th>APCodec</th>
+                </tr>
+                <tr>
+                  <td><audio controls="">
+                      <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_24_6/2.wav" type="audio/wav">
+                  </audio></td>
+                  <td><audio controls="">
+                      <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_24_6/2.wav" type="audio/wav">
+                  </audio></td>
+                  <td><audio controls="">
+                      <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_24_6/2.wav" type="audio/wav">
+                  </audio></td>
+                  <td><audio controls="">
+                      <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_24_6/2.wav" type="audio/wav">
+                  </audio></td>
+                </tr>
+              </tbody>
+    </table>
+    <p><em><strong>Sampling rate = 16 kHz, Bitrate = 2 kbps </strong></em></p>
+    <a></a>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="4"><div align="left">Example 1 (p364, male speaker) </div></th>
+        </tr>
+        <tr>
+          <th width="192">Raw Audio </th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_16/1.wav" type="audio/wav">
+          </audio></td>
+          <td></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>SoundStream </th>
+          <th>Encodec </th>
+          <th>HiFi-Codec</th>
+          <th>APCodec</th>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_16_2/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_16_2/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_16_2/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_16_2/1.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="4"><div align="left">Example 2 (s5, female speaker) </div></th>
+        </tr>
+        <tr>
+          <th width="192">Raw Audio </th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_16/2.wav" type="audio/wav">
+          </audio></td>
+          <td></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>SoundStream </th>
+          <th>Encodec </th>
+          <th>HiFi-Codec</th>
+          <th>APCodec</th>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_16_2/2.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_16_2/2.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_16_2/2.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_16_2/2.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <p><em><strong>Sampling rate = 16 kHz, Bitrate = 4 kbps </strong></em></p>
+    <a></a>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="4"><div align="left">Example 1 (p364, male speaker) </div></th>
+        </tr>
+        <tr>
+          <th width="192">Raw Audio </th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_16/1.wav" type="audio/wav">
+          </audio></td>
+          <td></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>SoundStream </th>
+          <th>Encodec </th>
+          <th>HiFi-Codec</th>
+          <th>APCodec</th>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_16_4/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_16_4/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_16_4/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_16_4/1.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="4"><div align="left">Example 2 (s5, female speaker) </div></th>
+        </tr>
+        <tr>
+          <th width="192">Raw Audio </th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/N_16/2.wav" type="audio/wav">
+          </audio></td>
+          <td></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>SoundStream </th>
+          <th>Encodec </th>
+          <th>HiFi-Codec</th>
+          <th>APCodec</th>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/SS_16_4/2.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/En_16_4/2.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/HC_16_4/2.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Primary_Experiment/AP_16_4/2.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
     <p>&nbsp;</p>
-    <a></a><div>
-      <table>
-        <thead>
-          <tr>
-            <th colspan="3"><div align="left">Example 1 </div></th>
-          </tr>
-          <tr>
-            <th width="192">Raw Speech </th>
-            <th width="192">&nbsp;</th>
-            <th width="192">&nbsp;</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><audio controls="">
-              <source src="https://yangai520.github.io/APCodec_demo/Natural/1.wav" type="audio/wav">
-            </audio></td>
-            <td></td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <th>APCodec (2 kbps) </th>
-            <th>APCodec (4 kbps) </th>
-            <th>APCodec (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_2kbps/1.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_4kbps/1.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_8kbps/1.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-          <tr>
-            <th>Encodec (2 kbps) </th>
-            <th>Encodec (4 kbps) </th>
-            <th>Encodec (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_2kbps/1.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_4kbps/1.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_8kbps/1.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-          <tr>
-            <th>SoundStream (2 kbps) </th>
-            <th>SoundStream (4 kbps) </th>
-            <th>SoundStream (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_2kbps/1.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_4kbps/1.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_8kbps/1.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-        </tbody>
-      </table>
-      <table>
-        <thead>
-          <tr>
-            <th colspan="3"><div align="left">Example 2 </div></th>
-          </tr>
-          <tr>
-            <th width="192">Raw Speech </th>
-            <th width="192">&nbsp;</th>
-            <th width="192">&nbsp;</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><audio controls="">
-              <source src="https://yangai520.github.io/APCodec_demo/Natural/2.wav" type="audio/wav">
-            </audio></td>
-            <td></td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <th>APCodec (2 kbps) </th>
-            <th>APCodec (4 kbps) </th>
-            <th>APCodec (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_2kbps/2.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_4kbps/2.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_8kbps/2.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-          <tr>
-            <th>Encodec (2 kbps) </th>
-            <th>Encodec (4 kbps) </th>
-            <th>Encodec (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_2kbps/2.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_4kbps/2.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_8kbps/2.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-          <tr>
-            <th>SoundStream (2 kbps) </th>
-            <th>SoundStream (4 kbps) </th>
-            <th>SoundStream (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_2kbps/2.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_4kbps/2.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_8kbps/2.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-        </tbody>
-      </table>
-      <table>
-        <thead>
-          <tr>
-            <th colspan="3"><div align="left">Example 3 </div></th>
-          </tr>
-          <tr>
-            <th width="192">Raw Speech </th>
-            <th width="192">&nbsp;</th>
-            <th width="192">&nbsp;</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><audio controls="">
-              <source src="https://yangai520.github.io/APCodec_demo/Natural/3.wav" type="audio/wav">
-            </audio></td>
-            <td></td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <th>APCodec (2 kbps) </th>
-            <th>APCodec (4 kbps) </th>
-            <th>APCodec (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_2kbps/3.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_4kbps/3.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_8kbps/3.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-          <tr>
-            <th>Encodec (2 kbps) </th>
-            <th>Encodec (4 kbps) </th>
-            <th>Encodec (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_2kbps/3.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_4kbps/3.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_8kbps/3.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-          <tr>
-            <th>SoundStream (2 kbps) </th>
-            <th>SoundStream (4 kbps) </th>
-            <th>SoundStream (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_2kbps/3.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_4kbps/3.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_8kbps/3.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-        </tbody>
-      </table>
-      <table>
-        <thead>
-          <tr>
-            <th colspan="3"><div align="left">Example 4 </div></th>
-          </tr>
-          <tr>
-            <th width="192">Raw Speech </th>
-            <th width="192">&nbsp;</th>
-            <th width="192">&nbsp;</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><audio controls="">
-              <source src="https://yangai520.github.io/APCodec_demo/Natural/4.wav" type="audio/wav">
-            </audio></td>
-            <td></td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <th>APCodec (2 kbps) </th>
-            <th>APCodec (4 kbps) </th>
-            <th>APCodec (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_2kbps/4.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_4kbps/4.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_8kbps/4.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-          <tr>
-            <th>Encodec (2 kbps) </th>
-            <th>Encodec (4 kbps) </th>
-            <th>Encodec (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_2kbps/4.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_4kbps/4.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_8kbps/4.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-          <tr>
-            <th>SoundStream (2 kbps) </th>
-            <th>SoundStream (4 kbps) </th>
-            <th>SoundStream (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_2kbps/4.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_4kbps/4.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_8kbps/4.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-        </tbody>
-      </table>
-      <table>
-        <thead>
-          <tr>
-            <th colspan="3"><div align="left">Example 5 </div></th>
-          </tr>
-          <tr>
-            <th width="192">Raw Speech </th>
-            <th width="192">&nbsp;</th>
-            <th width="192">&nbsp;</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><audio controls="">
-              <source src="https://yangai520.github.io/APCodec_demo/Natural/5.wav" type="audio/wav">
-            </audio></td>
-            <td></td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <th>APCodec (2 kbps) </th>
-            <th>APCodec (4 kbps) </th>
-            <th>APCodec (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_2kbps/5.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_4kbps/5.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/APCodec_8kbps/5.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-          <tr>
-            <th>Encodec (2 kbps) </th>
-            <th>Encodec (4 kbps) </th>
-            <th>Encodec (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_2kbps/5.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_4kbps/5.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/Encodec_8kbps/5.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-          <tr>
-            <th>SoundStream (2 kbps) </th>
-            <th>SoundStream (4 kbps) </th>
-            <th>SoundStream (8 kbps) </th>
-          </tr>
-          <tr>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_2kbps/5.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_4kbps/5.wav" type="audio/wav">
-            </audio></td>
-            <td><audio controls="">
-                <source src="https://yangai520.github.io/APCodec_demo/SoundStream_8kbps/5.wav" type="audio/wav">
-            </audio></td>
-          </tr>
-        </tbody>
-      </table>
-      <p></p>
-    </div>
+    <h2>Ablation Studies</h2>
+    <p><em><strong>Ablation on APCodec (Sampling rate = 48 kHz, Bitrate = 6 kbps) </strong></em></p>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="5"><div align="left">Example 1 (p360, male speaker) </div></th>
+        </tr>
+        <tr>
+          <th width="192">APCodec</th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/AP/1.wav" type="audio/wav">
+          </audio></td>
+          <td></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>APCodec w/o CNV </th>
+          <th>APCodec w/o MelMSE </th>
+          <th>APCodec w/o QLoss</th>
+          <th>APCodec w/o MRD</th>
+          <th>APCodec w/o Hinge</th>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/AP_CNV/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/AP_Mel/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/AP_Q/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/AP_MRD/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/AP_Hinge/1.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="5"><div align="left">Example 2 (p361, female speaker) </div></th>
+        </tr>
+        <tr>
+          <th width="192">APCodec</th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/AP/2.wav" type="audio/wav">
+          </audio></td>
+          <td></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th>APCodec w/o CNV </th>
+          <th>APCodec w/o MelMSE </th>
+          <th>APCodec w/o QLoss</th>
+          <th>APCodec w/o MRD</th>
+          <th>APCodec w/o Hinge</th>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/AP_CNV/2.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/AP_Mel/2.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/AP_Q/2.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/AP_MRD/2.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/AP_Hinge/2.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <p><em><strong>Ablation on APCodec-S (Sampling rate = 48 kHz, Bitrate = 6 kbps) </strong></em></p>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="5"><div align="left">Example 1 (p360, male speaker) </div></th>
+        </tr>
+        <tr>
+          <th width="192">APCodec-S</th>
+          <th width="192">APCodec-S w/o KD </th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/APS/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/APS_KD/1.wav" type="audio/wav">
+          </audio></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="5"><div align="left">Example 2 (p361, female speaker) </div></th>
+        </tr>
+        <tr>
+          <th width="192">APCodec-S</th>
+          <th width="192">APCodec-S w/o KD </th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/APS/2.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Ablation_Study/APS_KD/2.wav" type="audio/wav">
+          </audio></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>&nbsp;</p>
+    <h2>Validation on Diverse Datasets</h2>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="4"><div align="left">An Example of HiFi-Codec </div></th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <th width="192">VCTK </th>
+          <th width="192">Opencpop </th>
+          <th width="192">FSD50K</th>
+          <th width="192">MUSDB18</th>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Diverse_Data/HC_V/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Diverse_Data/HC_O/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Diverse_Data/HC_F/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Diverse_Data/HC_M/1.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="4"><div align="left">An Example of APCodec </div></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th width="192">VCTK </th>
+          <th width="192">Opencpop </th>
+          <th width="192">FSD50K</th>
+          <th width="192">MUSDB18</th>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Diverse_Data/AP_V/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Diverse_Data/AP_O/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Diverse_Data/AP_F/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Diverse_Data/AP_M/1.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="4"><div align="left">The Corresponding Raw Audio</div></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th width="192">VCTK </th>
+          <th width="192">Opencpop </th>
+          <th width="192">FSD50K</th>
+          <th width="192">MUSDB18</th>
+        </tr>
+        <tr>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Diverse_Data/N_V/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Diverse_Data/N_O/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Diverse_Data/N_F/1.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://yangai520.github.io/Demo_APCodec/Diverse_Data/N_M/1.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>&nbsp;</p>
     </body></html>
